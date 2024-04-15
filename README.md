@@ -86,18 +86,20 @@ The result is :<br>
 `List 1 List 2`<br>
 
 Another example is making an inline element <span> display as block. <br>
-`<span>A display property with</span> <span>a value of "block" results as </span>`<br>
+
+     <span>A display property with</span> <span>a value of "block" results as </span>
 
 ###### It displays as:<br>
 `A display property with a value of "block" results`
 
-To display as a block element on a seperate lines we add this code to the CSS style:
+To display as a block element on a seperate lines we add this code to the CSS style:<br>
+
 `span {`<br>
   `display: block;`<br>
       `}`<br>
 
 ###### It displays as:<br>
-`A display property with
-a value of "block" results`
+`A display property with`<br>
+`a value of "block" results`
 
 
