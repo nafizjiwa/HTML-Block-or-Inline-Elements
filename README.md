@@ -1,10 +1,11 @@
 # HTML-Elements
 The differences between Block or Inline HTML Elements.
+Every HTML element has a default ```+display``` value based on the type of element it is:<br>
 
 There are 2 basic types of HTML elements:
 <ol>
-  <li>Block level elements</li>
-  <li>Inline elements</li>
+  <li>Block level elements display block</li>
+  <li>Inline elements display in-line</li>
 </ol>
 
 
@@ -27,25 +28,26 @@ However, if we give them a width, they will continue to lay out one below the ot
 #### Examples of block level elements:<br>
 <ul>
   <li>Paragraphs</li>
-  <li>Ordered and Unordered Lists</li>
+  <li>Ordered <ol>, Unordered Lists <ul> and their list items <li> </li>
   <li>All headings: h1 -> h6 </li>
   <li>Div, footer, section, nav, table etc...</li>
 </ul><br>
 
 
 #### Inline Elements<br>
-###### Inline elements display in a line. They <em>do not force the text</em> after them to a new line.<br>
+###### Inline elements display in a line, one after the other in that direction. They <em>will not force the text</em> after them to a new line.<br>
+###### They only take up the width or space they need, no more.<br>
 
 ###### An anchor (or link) is an example of an inline element. You can put several links in a row, and they will display in a line.<br>
 
 #### Examples of inline elements:<br>
 <ul>
-  <li>Anchors</li>
-  <li>Strong and Emphasis (em)s</li>
-  <li>Code</li>
-  <li>Anchors</li>
-  <li>Strong and Emphasis (em)s</li>
-  <li>Code</li>
+  <li>Anchors <a></li>
+  <li>Strong <strong> and Emphasis (em)s</li>
+  <li>Span <span></li>
+  <li>Button</li>
+  <li>Imput <input></li>
+  <li>Image <img></li>
 </ul><br>
 
 ###### Why is this important?<br>
@@ -57,3 +59,23 @@ However, if we give them a width, they will continue to lay out one below the ot
 ###### The correct way to do this would be to put the inline element inside the block element:<br>
     <h1><a href="http://example.com/">This is invalid HTML</a></h1>	← Correct 
 <br>
+
+# Override The Default Display Value
+So, every element has a default display value either block or inline. However, you can override this.<br>
+Changing an inline element to a block element, or vice versa, is helpful to make a page look a specific way.<br>
+
+An example is making inline <li> elements for horizontal menus:<br>
+<li> is a block element and to make it inline we change its display property to inline from block.<br>
+`<li>list 1</li>`
+`<li>list 2</li>`<br>
+The above displays:<br>
+`list 1`
+`list 2`<br>
+To make the list display horizonal we add a display property to it CSS with a value of inline and not block do as so:<br>
+`li {`
+  `display: inline;`
+`}`<br>
+The result is :<br>
+List 1 List 2<br>
+
+
