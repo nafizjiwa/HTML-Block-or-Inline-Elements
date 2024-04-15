@@ -13,11 +13,15 @@ There are 2 basic types of HTML elements:
 The browsers automatically adds some space (a margin) before and after the element.<br>
 To eliminate the margins between block elements set their margins to zero:<br>
  
-`p { margin: 0; }`
+`p { margin: 0; }`<br>
 
 ###### A paragraph is a block level element. Each new paragraph tag will stack vertically. <br>
 In a horizontal writing mode: <br>
 ![image](https://github.com/nafizjiwa/HTML-Elements/assets/56348190/c7d9de13-c2bd-4e36-b546-ee9fe4d8414e)<br>
+
+Since block elements will consume all of the space in the inline direction a paragraph will spread out and get as big as it can inside their containing block.
+However, if we give them a width, they will continue to lay out one below the other - even if there is space for them to be side by side. <br>
+![image](https://github.com/nafizjiwa/HTML-Elements/assets/56348190/727ac119-b160-4059-bc54-9ef3e2c3dcde)<br>
 
 
 #### Examples of block level elements:<br>
