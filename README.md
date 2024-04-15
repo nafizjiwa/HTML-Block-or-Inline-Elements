@@ -12,7 +12,7 @@ There are 2 basic types of HTML elements:
 ###### Block level tags take up as much horizontal (width) space as possible and push the next block level element down. They always start on a new line and stack down the page.<br>
 The browsers automatically adds some space (a margin) before and after the element.<br>
 To eliminate the margins between block elements set their margins to zero:<br>
---> 
+--><br>
         p { margin:0;}
 
 ###### A paragraph is a block level element. Each new paragraph tag will stack vertically. <br>
