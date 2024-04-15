@@ -67,21 +67,22 @@ Changing an inline element to a block element, or vice versa, is helpful to make
 An example is making inline <li> elements for horizontal menus:<br>
 <li> is a block element and to make it inline we change its display property to inline from block.<br>
   
-`<li>list 1</li>`
+`<li>list 1</li>`<br>
 `<li>list 2</li>`<br>
 
 The above displays:<br>
 
-`list 1`
+`list 1`<br>
 `list 2`<br>
 
 To make the list display horizonal we add a display property to it CSS with a value of inline and not block do as so:<br>
 
-`li {`
-  `display: inline;`
+`li {`<br>
+  `display: inline;`<br>
 `}`<br>
 
 The result is :<br>
-List 1 List 2<br>
+
+`List 1 List 2`<br>
 
 
