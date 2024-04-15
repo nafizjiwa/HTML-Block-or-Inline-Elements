@@ -12,9 +12,8 @@ There are 2 basic types of HTML elements:
 ###### Block level tags take up as much horizontal (width) space as possible and push the next block level element down. They always start on a new line and stack down the page.<br>
 The browsers automatically adds some space (a margin) before and after the element.<br>
 To eliminate the margins between block elements set their margins to zero:<br>
---><br>
-    <a href="http://example.com/"><h1>This is invalid HTML</h1></a>	← Incorrect <br>
-    p { margin: 0; }
+ 
+`p { margin: 0; }`
 
 ###### A paragraph is a block level element. Each new paragraph tag will stack vertically. <br>
 In a horizontal writing mode: <br>
@@ -48,7 +47,9 @@ In a horizontal writing mode: <br>
 ###### Why is this important?<br>
 ###### Inline elements cannot contain block level elements<br>
 ###### For example, a link cannot be wrapped around a header:<br>
-    <a href="http://example.com/"><h1>This is invalid HTML</h1></a>	← Incorrect <br>
+    <a href="http://example.com/"><h1>This is invalid HTML</h1></a>	← Incorrect 
+<br>
 
 ###### The correct way to do this would be to put the inline element inside the block element:<br>
-    <h1><a href="http://example.com/">This is invalid HTML</a></h1>	← Correct<br>
+    <h1><a href="http://example.com/">This is invalid HTML</a></h1>	← Correct 
+<br>
