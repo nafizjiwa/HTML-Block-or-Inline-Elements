@@ -67,8 +67,8 @@ Changing an inline element to a block element, or vice versa, is helpful to make
 An example is making inline <li> elements for horizontal menus:<br>
 <li> is a block element and to make it inline we change its display property to inline from block.<br>
   
-`<li>list 1</li>`<br>
-`<li>list 2</li>`<br>
+    <li>list 1</li>
+    <li>list 2</li>
 
 The above displays:<br>
 
