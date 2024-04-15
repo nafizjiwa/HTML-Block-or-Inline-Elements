@@ -9,15 +9,23 @@ There are 2 basic types of HTML elements:
 
 
 #### Block Level Elements<br>
-###### They take up space by default. They will stack down the page.<br>
+###### Block level tags take up as much horizontal (width) space as possible and push the next block level element down. They always start on a new line and stack down the page.<br>
+The browsers automatically adds some space (a margin) before and after the element.<br>
+To eliminate the margins between block elements set their margins to zero:<br>
+--> 
+        p { margin:0;}
 
-###### A paragraph is a block level element. Each new paragraph tag will stack vertically. Block level tags take up as much horizontal space as possible and push the next block level element down.<br>
+###### A paragraph is a block level element. Each new paragraph tag will stack vertically. <br>
+In a horizontal writing mode: <br>
+![image](https://github.com/nafizjiwa/HTML-Elements/assets/56348190/c7d9de13-c2bd-4e36-b546-ee9fe4d8414e)<br>
+
 
 #### Examples of block level elements:<br>
 <ul>
   <li>Paragraphs</li>
   <li>Ordered and Unordered Lists</li>
-  <li>All headings</li>
+  <li>All headings: h1 -> h6 </li>
+  <li>Div, footer, section, nav, table etc...</li>
 </ul><br>
 
 
