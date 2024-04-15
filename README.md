@@ -13,7 +13,8 @@ There are 2 basic types of HTML elements:
 The browsers automatically adds some space (a margin) before and after the element.<br>
 To eliminate the margins between block elements set their margins to zero:<br>
 --><br>
-     <p>p { margin: 0; }</p>
+    <a href="http://example.com/"><h1>This is invalid HTML</h1></a>	← Incorrect <br>
+    p { margin: 0; }
 
 ###### A paragraph is a block level element. Each new paragraph tag will stack vertically. <br>
 In a horizontal writing mode: <br>
