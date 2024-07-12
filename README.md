@@ -1,4 +1,4 @@
-# HTML-Elements
+# HTML Elements
 The differences between Block or Inline HTML Elements.
 Every HTML element has a default ```+display``` value based on the type of element it is:<br>
 
